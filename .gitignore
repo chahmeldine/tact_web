@@ -1,0 +1,36 @@
+# Dépendances
+node_modules/
+.pnpm-store/
+
+# Build / sorties
+dist/
+.output/
+.nuxt/
+.nuxtrc
+.vercel/
+.turbo/
+coverage/
+
+# Env (JAMAIS commité — voir .env.example)
+.env
+.env.*
+!.env.example
+
+# Flutter / Dart
+apps/mobile/.dart_tool/
+apps/mobile/build/
+apps/mobile/.flutter-plugins
+apps/mobile/.flutter-plugins-dependencies
+apps/mobile/ios/Pods/
+apps/mobile/android/.gradle/
+apps/mobile/**/*.g.dart
+apps/mobile/**/*.freezed.dart
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+
+# IDE / OS
+.DS_Store
+.idea/
+*.log
